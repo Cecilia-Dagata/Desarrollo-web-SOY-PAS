@@ -1,0 +1,33 @@
+
+
+@media screen and (max-width:1024px){
+    .gridIndex{
+        height: 150vh;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 5% 30% 15% 45% auto;
+        grid-template-areas: "header header"
+                             "section1 section1"
+                             "section2 section2"
+                             "mainIndex mainIndex"
+                             "footer footer";
+}
+
+
+@media screen and (max-width:600px){ 
+    .gridIndex {
+        
+        height: 200vh;
+        grid-template-columns: auto;
+        grid-template-rows: 5% 30% 15% 45% auto;
+        grid-template-areas: "header"
+                             "section1"
+                             "section2"
+                             "mainIndex"
+                             "footer";
+    }
+
+    ul{
+        display: flex;
+        justify-content: end;
+    }
+ }

@@ -1,0 +1,169 @@
+/*.gridIndex{
+    
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 25%) ;
+    grid-template-rows: 5% 30% 15% 45% auto;
+    grid-template-areas: "header header header header"
+                         "section1 section1 section1 section1"
+                         "section2 section2 section2 section2 "
+                         "mainIndex mainIndex mainIndex mainIndex"
+                         "footer footer footer footer";
+}
+
+header{
+    grid-area: header;
+      
+}
+
+#section1{
+    grid-area: section1;
+    
+}
+
+#section2{
+    grid-area: section2;
+   
+}
+
+.mainIndex{
+    grid-area: mainIndex;
+    
+}
+
+footer{
+    grid-area: footer;
+
+}
+
+.gridContainerSiente{
+    max-width: 90vw;
+    min-height: 100vh;
+    border: 1px solid black;
+    margin: 10px 25px ;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 15% 15% 20% 30% ;
+    grid-template-areas: "video1 video2 video3 video4"
+                         "libro1 libro2 libro3 libro4"
+                         "articulo0 articulo1 articulo2 articulo3"
+                         "sonido1 sonido2 sonido3 sonido4";
+    gap: 35px;
+    
+}
+
+.video1{
+ 
+    grid-area: video1;
+   
+}
+
+.video2{
+   grid-area: video2;
+       
+}
+
+.video3{
+   
+    grid-area: video3;
+    
+}
+
+.video4{
+   
+    grid-area: video4;
+    
+}
+
+figure img{
+    width: 250px;
+    height: 400px;
+    margin: 1px 15px 1px 15px;
+}
+
+.libro1{
+    width: 250px;
+    grid-area: libro1;
+
+}
+
+.libro2{
+    width: 250px;
+    grid-area: libro1;
+    
+}
+
+.libro3{
+    width: 250px;
+    grid-area: libro1;
+    
+ }
+
+ .libro4{
+    width: 250px;
+    grid-area: libro1;
+    
+ }
+
+.articulo0{
+    
+    grid-area: articulo0;
+     
+ }
+
+.articulo1{
+   
+   grid-area: articulo1;
+    
+}
+
+.articulo2{
+   
+    grid-area: articulo2
+}
+
+.articulo3{
+    
+    grid-area: articulo3;
+  
+}
+
+.sonido1{
+   
+    grid-area: sonido1;
+    margin-top: 170px;
+    margin-left: 10px;
+}
+
+.sonido2{
+    
+    grid-area: sonido2;
+    margin-top: 170px;
+    margin-left: 10px;
+    
+}
+
+.sonido3{
+  
+    grid-area: sonido3;
+    margin-top: 170px;
+    margin-left: 10px;
+    
+}
+
+.sonido4{
+    
+    
+    grid-area: sonido4;
+    margin-top: 170px;
+    margin-left: 10px;
+    
+}
+
+.audio{
+    
+    width: 250px;
+    padding: 5px 10px;
+    margin-left: 32px;
+
+}

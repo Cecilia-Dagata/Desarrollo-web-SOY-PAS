@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifecoach PAS -Martina Schaab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,200;1,400;1,600&family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/33ded919a4.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="gridConecta">
+    <header>
+        <nav>
+            <a href="../index.html"><img class="headerLogo" src="../assets/images/logolineal2.jpg" alt="logo"></a>
+            <ul>
+                <li class="headerLi"><a class="headerA" href="../index.html">HOME</a></li>
+                <li class="headerLi"><a class="headerA" href="./descubre.html">DESCUBRE</a></li>
+                <li class="headerLi"><a class="headerA" href="./siente.html">SIENTE</a></li>
+                <li class="headerLi"><a class="headerA" href="./transforma.html">TRANSFORMA</a></li>
+                <li class="headerLi"><a class="headerA" href="#">CONECTA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1 class="mainTit">CONECTA CONMIGO</h1>
+        <div class="frase">
+        <p class="frase">"Quien no comprende una mirada tampoco comprenderá una larga explicación". Martina Schaap (life coach)</p>
+        </div>
+    </section>
+
+    <main class="mainConecta">     
+        <form class="contactForm">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="inputForm" id="nombre" required>
+                    
+            <label for="email">E-mail</label>
+            <input type="text" class="inputForm" id="email" required>
+                    
+            <label for="telefono">Telefono</label>
+            <input type="tel" class="inputForm" name="telefonodecontacto" id="telefono">
+            
+            <div class="radioButtons">  
+               <p>Tu edad</p>
+                 <label for="14 a 20 años">
+                    <input type="radio" name="edad" id="14 a 20 años">14-20</label>
+                <label for="21 y 40 años">
+                    <input type="radio" name="edad" id="21 y 40 años">21-40</label>
+                <label for="40 o más años">
+                    <input type="radio" name="edad" id="40 o más años">40 o más</label>
+            </div>
+
+            <select name="accion" id="accion" class="selectForm">
+                <option value="consulta">Consultas</option>
+                <option value="informacion">Información</option>
+                <option value="comentarios">Comentarios</option>
+                <option value="testimonio">Testimonios</option>
+            </select>
+                    
+            <textarea class="textArea" name="textarea" id="mensaje" cols="50" rows="7">INGRESA TU MENSAJE</textarea>
+            <div class="checkUso">    
+                <input type="checkbox" name="acepto" id="terminos de uso">
+                <a href="#" class="terminosDeUso">
+                        <label for="terminos de uso">He leído y acepto los términos de uso</label>
+                </a>
+            </div>
+            <input class="enviarInput" type="submit" value="ENVIAR">
+        </form> 
+
+        <div class="iframeDiv">
+            <div class="infoIframe">
+                <p>Av. Alvear 1847 c.a.b.a.-Argentina</p>
+                <p>Informes lunes a sabados 8 a 18hs.</p>
+            </div>
+            <iframe class="contactIframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d812.8656826083262!2d-58.38918255960541!3d-34.587881340501625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa49a96dc3b%3A0x51f14b50949c5775!2sAv.%20Alvear%201847%2C%20C1129AAA%20CABA!5e0!3m2!1ses!2sar!4v1666573940325!5m2!1ses!2sar"
+                width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </main>
+    
+    <footer>
+        <div>
+            <p>Telefono: 011-2214-5707</p>
+            <p>E-mail: soypas@martinacoach.com</p>
+        </div>
+        <div class="divIcons">
+            <a class="navIcons" href="https://www.instagram.com/personas_altamente_sensibles/?hl=es" target="_blank">
+                <i class="fa-brands fa-instagram fa-1x"></i>
+            </a>
+            <a class="navIcons" href="https://es-la.facebook.com/groups/personasaltamentesensibles.ba/
+            " target="_blank">
+                <i class="fa-brands fa-square-facebook fa-1x"></i>
+            </a>
+            <a class="navIcons" href="https://twitter.com/asociacionPAS?s=20" target="_blank">
+                <i class="fa-brands fa-twitter fa-1x"></i>
+            </a>
+        </div>
+        <div>
+            <p>Aspectos legales</p>
+            <p>Política de privacidad</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
