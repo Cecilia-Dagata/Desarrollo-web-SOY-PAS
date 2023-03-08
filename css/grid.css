@@ -1,4 +1,4 @@
-/*.gridIndex{
+.gridHome{
     
     min-height: 100vh;
     display: grid;
@@ -167,3 +167,49 @@ figure img{
     margin-left: 32px;
 
 }
+/*
+.articulo1 a{
+    display: inline-block;
+}
+figure{
+    
+    position: relative;
+    transition: all ease 5s;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotateY('0deg');
+}
+
+figure .frontal,
+figure .dorso{
+    width: 100%;
+    position: absolute;
+    transition: all ease 5s;
+}
+
+figure .frontal{
+    display: block;
+    backface-visibility: hidden;
+}
+
+figure .dorso{
+    position: absolute;
+    top: 0px;
+    padding: 5px 5px;
+    font-size: 1.3rem;
+}
+
+
+.articulo1 :hover { 
+    filter: opacity(0.5);
+    visibility: visible;
+
+}
+.titArticulo div{
+    background-color: aquamarine;
+}
+
+.titArticulo p{
+   visibility: hidden;
+   opacity: 0;
+}
+/*

@@ -6,30 +6,51 @@
     font-family: 'Poiret One', cursive;
     line-height: 1.5;
     font-weight: bold;
+    text-align: justify;
 }
 
 /*HOME*/
 header{
-    width: 100%;
-    height: min-content;
-    background-color: rgba(255, 255, 255, 0.621);
-    
+    height: fit-content;
+    background-color: white;
+}
+
+.container-fluid{
+    height: 60px;
 }
 
 .headerLogo{
-    width: 300px; 
-   
+    width: 270px; 
+
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+svg{
+    height: 2.5rem;
 }
 
-nav a{
-    justify-self: center;
+.navbar-toggler{
+    border: none !important;
 }
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+.nav-link{
+    color: rgb(13, 126, 11);
+    font-size: 1.8rem;
+}
+
+.nav-item{
+    margin: auto 20px;
+}
+
+.textCol{
+    padding: 5px 15px;
+    margin: 5px 5px;
+}
+
+/*
 
 ul{
     width: 100%;
@@ -38,11 +59,13 @@ ul{
     
 }
 
+nav a{
+    justify-self: center;
+}
+
 .headerLi{
-    
-   list-style-type: none;
-   text-decoration: none;
-   
+list-style-type: none;
+text-decoration: none;  
 }
 
 .headerA{
@@ -50,92 +73,91 @@ ul{
     font-size: 2rem;
     list-style-type: none;
     text-decoration: none;  
-    
-}
+}*/
 
 .backgroundHome {
     background-image: url(../assets/images/back\ body\ short\ size.jpg);
-    background-size: cover;
-    border-radius: 0px 0px 50px 50px;
-  
+    background-size: contain;
+    width: 100%;
 }
 
 .homeQuote{
-    background-color: rgba(74, 193, 48, 0.388);
-    width: 340px;
-    height: fit-content;
-    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.671);
     position: absolute;
-    top: 40vh;
-    right: 4vw;
+    margin: 25% 7%;
+   
 }
 
 .homeQuote p{
-    width: 350px;
+    width: fit-content;
     font-style: italic;
     font-size: 1.2rem;
-    text-align: justify;
     position: relative;
-    left: 17px;
-    top: 6px;
+    padding: 5px 10px; 
 }
-
+/*
 .firmaQuote{
     text-align: right;
     bottom: 2px;
-}
+}*/
 
 .mainTit{
     color: rgb(0, 80, 0);
     font-size: 3rem;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 15px;
-  
+    margin-top: 10%;
+    margin-bottom: 20px;
+    font-weight: 800;
 }
 
 .frase{ 
     color:rgb(122, 74, 74) ;
     font-size: 1.4rem;
     font-style: italic;
-    margin: auto;
     text-align: center;
-    
 }
 
 .secondTit{
     color: rgb(1, 107, 1);
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     text-align: center;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 35px;
+    font-weight: 600;
 }
 
+
 .contenedorPadre{
-   
     display: flex;
     justify-content: space-evenly;
     height:420px ;
     margin-top: 20px;
-
 }
 
 .contenedorPadre p{
     width: 600px;
-    text-align: justify;
     font-size: 1.1;
-    
 }
 
 .thirdTit{
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     color: rgb(2, 143, 2);
     text-align: center;
     margin-top: 25px;
     margin-bottom: 35px;
+    font-weight: 600;
+}
+.retratoHome{
+    width: 100%;
+    margin-top: 10%;
 }
 
+.colTexto{
+   margin-top: 25px;
+}
+
+.marginBioText{
+    margin-top: 90px
+}
+/*
 .contenedorPerfil1{
     width: 98vw;
     height: max-content;
@@ -153,16 +175,12 @@ ul{
 }
 
 .contenedorPerfil1 img{ 
-    width: 45vw;
-    margin: 20px 40px ;
-    border-radius: 0px 120px 0px 120px;
-    backdrop-filter:initial;
-}
+    width: 55%;
    
+}
+
 .contenedorPerfil2 img{
-    width: 45vw;
-    margin: 20px 40px ;
-    border-radius: 0px 120px 0px 120px;
+    width: 55%;
     
 }
 
@@ -190,23 +208,28 @@ ul{
     font-size: 1.5rem;
 }
 
-.mainIndex{
-   
+.mainHome{
     margin-bottom: 150px;
     min-height: 100vh;
-
+   
 }
+*/
 
-/*DESCUBRE*/
+/*DESCUBRE*//*
+.contenedorTabla{
+    background-image: url(../assets/images/fondo\ petalo.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}*/
+
 
 .introTabla{
     width: 87%;
     margin: 35px auto;
-    text-align: justify;
+   
 }
 
 .escalaTest{
-    text-align: justify;
     margin: auto;
 
 }
@@ -261,34 +284,51 @@ tr:hover{
 }
 
 /*SIENTE*/ 
- h4{
-    font-size: 3rem;
+h4{
+    font-size: 2.2rem;
     text-align: center;
- }
-.video{
-    width: 610px;
-    height: 320px;
+    
 }
+
+.video{
+    width: 650px;
+    height: 400px;
+    margin: auto 70px;
+    padding: 5px 40px;
+}
+
 .libro{
     width: 300px;
     height: 430px;    
 }
+
 figcaption h5,
 figcaption p{
-    text-align: justify;
     width: 230px;
     margin: 10px 7px 7px 10px;
 }
-/*
+
+
 .accordion-button .collapsed{
+    box-shadow: none;
     outline-style: none;
-    border-color: aliceblue;
-}*/
+    border-color: none;
+    background-color:rgb(2, 143, 2) ;
+}
 
 .img-fluid .imgArt{
     border: 1px solid black;
 
 }
+
+.linksSiente{
+    width: 400px;
+}
+
+.imgSonidos{
+    width: 600px;
+}
+/*
 .articulo{
     border: 1px solid black;
     width: 335px;
@@ -299,91 +339,34 @@ figcaption p{
     justify-items: center;
 }
 
-
 .textoTruncado p{
     border: 1px solid black;
     overflow:hidden;
     -webkit-line-clamp: 2;
-     display: -webkit-box;
+    display: -webkit-box;
     -webkit-box-orient: vertical;
     text-align:left;
-}
-
-
-/*
-.articulo1 a{
-    display: inline-block;
-}
-figure{
-    
-    position: relative;
-    transition: all ease 5s;
-    transform-style: preserve-3d;
-    transform: perspective(600px) rotateY('0deg');
-}
-
-figure .frontal,
-figure .dorso{
-    width: 100%;
-    position: absolute;
-    transition: all ease 5s;
-}
-
-figure .frontal{
-    display: block;
-    backface-visibility: hidden;
-}
-
-figure .dorso{
-    position: absolute;
-    top: 0px;
-    padding: 5px 5px;
-    font-size: 1.3rem;
-}
-
-
-.articulo1 :hover { 
-    filter: opacity(0.5);
-    visibility: visible;
-
-}
-.titArticulo div{
-    background-color: aquamarine;
-}
-
-.titArticulo p{
-   visibility: hidden;
-   opacity: 0;
-}
-/*
-
-
+}*/
 
 /*TRANSFORMA*/
 .sectionTransforma{
-   background-image: url(../assets/images/transforma\ fondo.jfif);
+    background-image: url(../assets/images/transforma\ fondo.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
 .contenedorFlexTestimonios{
-    width: 90vw;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    width: 200px;
+    /* display: flex; */
+    gap: 5px;
 }
-
-.testimonios{
-    background-color:rgba(254, 250, 30, 0.079); ;
-    width: 300px;
-    text-align: justify;
+.autoRretrato{
+    height: 10%;
    
 }
-
-.nombreTestimonios{
-    color: rgb(2, 143, 2);
-    text-decoration: underline;
+.testimonios{
+    background-color:rgba(254, 250, 30, 0.079); 
 }
 
 .dateStyle{
@@ -394,11 +377,10 @@ figure .dorso{
 .infoStyle{
     text-align:left;
     font-size: 1rem;
-
 }
 
 .extraStyle{
- text-align: center;
+    text-align: center;
 }
 
 .contenedorFlexEventos{
@@ -412,7 +394,7 @@ figure .dorso{
     gap: 20px;
    
 }
-   
+
 .contenedorFlexEventos div{
     border-color: black;
     background-color: rgba(2, 143, 2, 0.042);
@@ -425,7 +407,6 @@ figure .dorso{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .evento span{
@@ -488,25 +469,27 @@ figure .dorso{
 .flexSubmit input{
     width: 20px ;
     padding-right: 10px; 
-
 }
 
 .flexSubmit a{
     text-decoration: none;
     color: black;
 }
+
 /*CONECTA*/
 
 .mainConecta{
-   
-    margin-bottom: 100px;
-    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
     display: grid;
     grid-template-areas: "contactForm iframeDiv";
     grid-template-columns: auto;
     justify-content: center;
     padding: 10px 10px;
     gap: 30px;
+    background-image: url(../assets/images/bg\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contactForm{
@@ -518,9 +501,7 @@ figure .dorso{
 }
 
 .contactForm{
-   
-    max-width: 1100px;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     flex-flow: column wrap;
     align-items: stretch;
@@ -531,7 +512,6 @@ figure .dorso{
 .mainConecta label,
 .mainConecta input,
 .mainConecta p{
-    
     font-size: 1.2rem;
 }
 
@@ -548,22 +528,8 @@ figure .dorso{
 .radioButtons{
     display: flex;
     justify-content: space-between;
-    padding: 8px 3px 25px 3px;
-}
-
-.enviarInput{
-    width: 150px;
-    padding: 3px 7px;
-    margin: auto;
-}
-
-.checkUso{
-    margin: auto;
-}
-
-.terminosDeUso{
-    color: black;
-    padding-top: 5px;
+    padding: 5px 3px 7px 3px;
+    background-color: rgba(254, 255, 255, 0.56);
 }
 
 .selectForm{
@@ -575,85 +541,101 @@ figure .dorso{
     font-size: 1.1rem;
 }
 
-.IframeDiv{
-    width: 230px;
-    
+.checkUso{
+    margin: auto;
 }
 
-.infoIframe{
-    margin: 10px 10px;
+.terminosDeUso{
+    color: black;
+    padding-top: 5px;
+}
+
+.enviarInput{
+    width: 150px;
+    padding: 3px 7px;
+    margin: auto;
     text-align: center;
 }
 
-.iframeDiv p{
-    text-align: justify;
+.IframeDiv{
+    width: 230px;
+}
+
+.infoIframe{
+    margin-top: 18px;
+    text-align: center;
+    line-height: 1.2rem;
 }
 
 .contactIframe{
     box-shadow: 0px 9px 18px -5px rgb(0 0 0 /30%);
+    margin-top: 10px;
 }
 
+/*
 .gridConecta{
-      
     display: grid;
-   
-    grid-template-areas: "headerConecta headerConecta"
-                         "sectionConecta sectionConecta"
-                         "mainConecta mainConecta"
-                         "footerConecta footerConecta";
-    
-                         /*background-image: url(../assets/images/fondo\ conecta.jfif);
-                         background-repeat: no-repeat;
-                         background-size: contain;*/
-                         
-}
-
-.gridConecta header{
-    grid-area: headerConecta;  
+    grid-template-areas: 
+    "sectionGrid1 sectionGrid1"
+    "mainConecta mainConecta"
+    "footerConecta footerConecta";    
 }
 
 .gridConecta section{
-    grid-area: sectionConecta;
+    grid-area: sectionGrid1;
+    margin-top: -14px;
 }
 
 .gridConecta main{
     grid-area: mainConecta;    
 }
 
+/* .gridConecta aside{
+    grid-area: aside;
+} 
+
 .gridConecta footer{
     grid-area: footerConecta;
-}
-
-footer{
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.705);
-    border: 1px solid rgba(0, 62, 0, 0.733);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 1.4rem;
+}
+*/
+
+footer{
+    border-top: 1px rgba(128, 128, 128, 0.807);
 }
 
+.footerFlex{
+    display: flex;
+    justify-content:center;
+    align-items: stretch;
+    margin-top: 25px;
+
+}
+.footerFlex div{
+    width: 70%;
+    
+}
+
+.imgFooter{
+    width: 90px;
+}
+.iconsFlex{
+    display: flex;
+    justify-content: center;
+}
 .navIcons{
-    color: rgb(2, 107, 2);
+    color: rgb(13, 126, 11);
     font-size: 40px;
-    padding: 7px 7px;
+    padding: 7px 10px;
     text-decoration: none;
+    justify-content: center;
 }
 
-footer div{
-   
-    margin: 40px 0px;
-    padding: 2px 2px;
+.footer p{
+    font-size: 1.1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
+.varios{
+    color: rgb(13, 126, 11);
+}
