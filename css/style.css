@@ -5,27 +5,26 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poiret One', cursive;
     line-height: 1.5;
-    font-weight: bold;
+    font-weight: 600;
     text-align: justify;
 }
 
 /*HOME*/
 header{
-    height: fit-content;
     background-color: white;
 }
 
-.container-fluid{
-    height: 60px;
+.container-fluid,
+.header{
+    height: 55px;
 }
 
 .headerLogo{
-    width: 270px; 
-
+    width: 180px; 
 }
 
 svg{
-    height: 2.5rem;
+    height: 2.9rem;
 }
 
 .navbar-toggler{
@@ -38,42 +37,10 @@ svg{
 
 .nav-link{
     color: rgb(13, 126, 11);
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+    margin:0px 4px;
+    padding: 0%;
 }
-
-.nav-item{
-    margin: auto 20px;
-}
-
-.textCol{
-    padding: 5px 15px;
-    margin: 5px 5px;
-}
-
-/*
-
-ul{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-nav a{
-    justify-self: center;
-}
-
-.headerLi{
-list-style-type: none;
-text-decoration: none;  
-}
-
-.headerA{
-    color: rgb(13, 126, 11);
-    font-size: 2rem;
-    list-style-type: none;
-    text-decoration: none;  
-}*/
 
 .backgroundHome {
     background-image: url(../assets/images/back\ body\ short\ size.jpg);
@@ -82,33 +49,85 @@ text-decoration: none;
 }
 
 .homeQuote{
-    background-color: rgba(255, 255, 255, 0.671);
+    background-color: rgba(255, 255, 255, 0.558);
     position: absolute;
-    margin: 25% 7%;
-   
-}
+    margin: 25% 8%;
+} 
 
 .homeQuote p{
     width: fit-content;
     font-style: italic;
     font-size: 1.2rem;
     position: relative;
-    padding: 5px 10px; 
+    padding: 3px 8px; 
 }
-/*
-.firmaQuote{
-    text-align: right;
-    bottom: 2px;
-}*/
 
-.mainTit{
+.mainTitH{
+    color: rgb(0, 80, 0);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+
+.mainTitP{
     color: rgb(0, 80, 0);
     font-size: 3rem;
     text-align: center;
     margin-top: 10%;
-    margin-bottom: 20px;
-    font-weight: 800;
+    margin-bottom: 3%;
+    font-weight: 900;
 }
+
+.colTexto{
+    padding: 5px 15px;
+    margin: 5px 5px;
+    font-size: 1.1rem;
+}
+
+.secondTit{
+    color: rgb(1, 107, 1);
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.retratoHome{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.thirdTit{
+    font-size: 2.4rem;
+    color: rgb(2, 143, 2);
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+
+.marginBioText{
+    margin-top: 120px;
+    height: fit-content;
+    background-color: rgba(241, 250, 70, 0.353);
+} 
+
+.enlaceAconecta{
+    font-size: 1.8rem;
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgb(2, 143, 2);
+}
+
+.frase{
+    margin-bottom: 5%;
+    font-size:1.3rem;
+}
+
+/*DESCUBRE*/
 
 .frase{ 
     color:rgb(122, 74, 74) ;
@@ -117,116 +136,9 @@ text-decoration: none;
     text-align: center;
 }
 
-.secondTit{
-    color: rgb(1, 107, 1);
-    font-size: 2.6rem;
-    text-align: center;
-    font-weight: 600;
-}
-
-
-.contenedorPadre{
-    display: flex;
-    justify-content: space-evenly;
-    height:420px ;
-    margin-top: 20px;
-}
-
-.contenedorPadre p{
-    width: 600px;
-    font-size: 1.1;
-}
-
-.thirdTit{
-    font-size: 2.4rem;
-    color: rgb(2, 143, 2);
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 35px;
-    font-weight: 600;
-}
-.retratoHome{
-    width: 100%;
-    margin-top: 10%;
-}
-
-.colTexto{
-   margin-top: 25px;
-}
-
-.marginBioText{
-    margin-top: 90px
-}
-/*
-.contenedorPerfil1{
-    width: 98vw;
-    height: max-content;
-    display: flex;
-    flex-direction: row-reverse;
-    
-}
-
-.contenedorPerfil2{
-    width: 98vw;
-    height: max-content;
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.contenedorPerfil1 img{ 
-    width: 55%;
-   
-}
-
-.contenedorPerfil2 img{
-    width: 55%;
-    
-}
-
-.contenedorPerfil1 div{
-    margin: 50px 40px;
-    text-align: justify;
-}
-
-.contenedorPerfil2 div{
-    margin: 50px 40px;
-    text-align: justify;
-}
-
-.contenedorPerfil1 p{
-    margin: 15px 20px;
-}
-
-.contenedorPerfil2 p{
-    margin: 15px 20px;
-}
-
-.enlaceAconecta{
-    text-decoration: none;
-    color: rgb(2, 143, 2);
-    font-size: 1.5rem;
-}
-
-.mainHome{
-    margin-bottom: 150px;
-    min-height: 100vh;
-   
-}
-*/
-
-/*DESCUBRE*//*
-.contenedorTabla{
-    background-image: url(../assets/images/fondo\ petalo.jpg);
-    background-repeat: repeat;
-    background-size: contain;
-}*/
-
-
 .introTabla{
     width: 87%;
     margin: 35px auto;
-   
 }
 
 .escalaTest{
@@ -239,6 +151,7 @@ main table{
     margin: auto;
     
 }
+
 .tdNumero{
     width: 40px;
     text-align: center;
@@ -255,39 +168,11 @@ tr:nth-child(even){
     background-color: rgba(21, 225, 89, 0.137);
 }
 
-/*
-main table{
-    width: 57vw;
-    margin-left:20vw;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    border: 1px solid black;
-    border-collapse: collapse;
-
-}
-
-
-tr:hover{
-    background-color: rgba(252, 255, 71, 0.682);
-}
-
-.span{
-    color: rgb(2, 143, 2);
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin: 6px 0px;
-}
-
-.pieDeTabla{
-    text-align: center;
-    margin: auto;
-}
 
 /*SIENTE*/ 
 h4{
     font-size: 2.2rem;
     text-align: center;
-    
 }
 
 .video{
@@ -308,7 +193,6 @@ figcaption p{
     margin: 10px 7px 7px 10px;
 }
 
-
 .accordion-button .collapsed{
     box-shadow: none;
     outline-style: none;
@@ -318,7 +202,6 @@ figcaption p{
 
 .img-fluid .imgArt{
     border: 1px solid black;
-
 }
 
 .linksSiente{
@@ -328,50 +211,59 @@ figcaption p{
 .imgSonidos{
     width: 600px;
 }
-/*
-.articulo{
-    border: 1px solid black;
-    width: 335px;
-    margin-bottom: 70px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-}
-
-.textoTruncado p{
-    border: 1px solid black;
-    overflow:hidden;
-    -webkit-line-clamp: 2;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    text-align:left;
-}*/
 
 /*TRANSFORMA*/
-.sectionTransforma{
-    background-image: url(../assets/images/transforma\ fondo.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+
+.fourthTitle{
+    font-size: 2rem;
+    color: rgb(16, 115, 1);
+    margin: 20px auto;
 }
 
-.contenedorFlexTestimonios{
-    width: 200px;
-    /* display: flex; */
-    gap: 5px;
+.retrato{
+    width: 700px;
+    height: 740px;
+    object-fit: contain;
 }
-.autoRretrato{
-    height: 10%;
-   
+
+.detalleTestimonios{
+    font-size: 1.4rem;
 }
-.testimonios{
-    background-color:rgba(254, 250, 30, 0.079); 
+
+.testimonios p{
+    margin: 5px 15px 15px 15px ;
+    background-color: rgba(241, 250, 70, 0.121);
+}
+
+.contenedorFlexEventos{
+    width: 80vw;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    margin-left: 85px;
+    margin-top: 70px;
+    margin-bottom: 130px;
+    gap: 10px;
+}
+
+.evento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-color: black;
+    width: 850px;
+    padding: 10px 10px;
+    box-shadow: 0px 2px 5px 0px rgb(0, 0, 0);
+}
+
+.evento span{
+    background-color: rgba(2, 143, 2, 0.305);
 }
 
 .dateStyle{
+    width: 100%;
     color:rgb(133, 55, 55);
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .infoStyle{
@@ -383,37 +275,10 @@ figcaption p{
     text-align: center;
 }
 
-.contenedorFlexEventos{
-    width: 80vw;
-    height: 420px;
-    display: flex;
-    justify-content: center;
-    margin-left: 130px;
-    margin-top: 70px;
-    margin-bottom: 130px;
-    gap: 20px;
-   
-}
-
-.contenedorFlexEventos div{
-    border-color: black;
-    background-color: rgba(2, 143, 2, 0.042);
-    width: 500px;
-    padding: 20px 20px;
-    box-shadow: 0px 2px 5px 0px rgb(0, 0, 0);
-}
-
-.evento{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.evento span{
-    background-color: rgba(2, 143, 2, 0.305);
-}
-
 .newsletter{
+    background-image:url(../assets/images/fondo\ news.jpg);
+    background-size: contain;
+    background-color: rgba(249, 249, 249, 0.829);
     width: 700px;
     display: flex;
     flex-flow: column nowrap;
@@ -425,13 +290,11 @@ figcaption p{
 }
 
 .newsletter p{
-    
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
     padding: 1px 15px;
-
 }
 
 .newsletter span{
@@ -457,7 +320,6 @@ figcaption p{
     font-family: 'Poiret One', cursive;
     color: black;
     font-size: 0.8rem;
-    /*background-color: rgba(2, 143, 2, 0.497);*/
 }
 
 .flexSubmit{
@@ -474,11 +336,12 @@ figcaption p{
 .flexSubmit a{
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 }
 
 /*CONECTA*/
 
-.mainConecta{
+.gridConecta{
     margin-bottom: 50px;
     margin-top: 20px;
     display: grid;
@@ -506,12 +369,11 @@ figcaption p{
     flex-flow: column wrap;
     align-items: stretch;
     padding: 15px 40px;
-    
 }
 
-.mainConecta label,
-.mainConecta input,
-.mainConecta p{
+.gridConecta label,
+.gridConecta input,
+.gridConecta p{
     font-size: 1.2rem;
 }
 
@@ -562,7 +424,7 @@ figcaption p{
 }
 
 .infoIframe{
-    margin-top: 18px;
+    margin-top: 8px;
     text-align: center;
     line-height: 1.2rem;
 }
@@ -572,70 +434,277 @@ figcaption p{
     margin-top: 10px;
 }
 
-/*
-.gridConecta{
-    display: grid;
-    grid-template-areas: 
-    "sectionGrid1 sectionGrid1"
-    "mainConecta mainConecta"
-    "footerConecta footerConecta";    
-}
-
-.gridConecta section{
-    grid-area: sectionGrid1;
-    margin-top: -14px;
-}
-
-.gridConecta main{
-    grid-area: mainConecta;    
-}
-
-/* .gridConecta aside{
-    grid-area: aside;
-} 
-
-.gridConecta footer{
-    grid-area: footerConecta;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-*/
-
 footer{
-    border-top: 1px rgba(128, 128, 128, 0.807);
-}
-
-.footerFlex{
-    display: flex;
-    justify-content:center;
-    align-items: stretch;
-    margin-top: 25px;
-
-}
-.footerFlex div{
-    width: 70%;
-    
+    margin-top: 6%;
 }
 
 .imgFooter{
-    width: 90px;
+    width: 110px;
+    margin-left: 47%;
 }
-.iconsFlex{
-    display: flex;
-    justify-content: center;
+
+.presentacion{
+    text-align: center;
+    width: 100%;
+    margin: 30px 0px;
 }
+
+.icons{
+    margin-top: 20px;
+    margin: auto;
+    width: 370px;
+    margin-top: 10px;
+}
+
 .navIcons{
-    color: rgb(13, 126, 11);
-    font-size: 40px;
-    padding: 7px 10px;
+    color: rgba(26, 126, 24, 0.851);
+    font-size: 36px;
+    padding: 7px 13px;
     text-decoration: none;
-    justify-content: center;
 }
 
 .footer p{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
-.varios{
-    color: rgb(13, 126, 11);
+
+.links{
+    margin: auto;
+    margin-top: 20px;
 }
+
+.links a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(23, 111, 21);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.derechos{
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/*media queries md*/
+@media screen  and (max-width: 767.98px){
+ /*Home*/
+    .homeQuote p{
+        font-size: 0.9rem;
+        padding: 3px 4px; 
+    }
+
+    .mainTitP{
+        margin-top: 20%;
+    }
+
+  /*Transforma*/
+    .testimonios p{
+        width: 300px;
+        margin: -75px 20px 5px 20px;
+    }
+
+    .contenedorFlexEventos{
+        width: 65vw;
+        flex-direction: column;
+        height: fit-content;
+        margin-left: 130px;
+    }
+    
+    .evento{
+        width: 480px;
+    }
+
+    .dateStyle{
+        text-align: center;
+    }
+        
+    .newsletter{
+        width: 600px;
+    }
+
+    .newsletter p{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .emailInput{
+        padding: 5px 25px;
+    }
+
+    .submitInput{
+        margin-top: 18px;
+        text-align: center;
+    }
+
+
+/*Conecta-prueba*/
+
+    .gridConecta{
+        grid-template-areas: "contactForm"
+        "iframeDiv";
+        grid-template-columns: 1fr;
+        padding: 10px 10px;
+        align-items: center;
+        background-image: url(../assets/images/bg\ img\ 2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+
+    .inputForm{
+        width: 570px;
+    }
+    
+    .contactForm{
+        padding: 15px 40px;
+        width: fit-content;
+        margin-left: 25px;
+        height: 80vh; 
+    }
+
+    .gridConecta label,
+    .gridConecta input,
+    .gridConecta p{
+        font-size: 1.4rem;
+    }
+
+    .selectForm{
+        width: 270px;
+        margin: 20px auto;
+        font-size: 1.2rem;
+    }
+
+    .checkUso{
+        margin-top: 10px;
+    }
+
+    .enviarInput{
+        width: 150px;
+        padding: 3px 7px;
+        margin-top: 5px;
+    }
+
+    .IframeDiv{
+        width: 270px;
+        margin-left: 30%;
+    }
+
+    .infoIframe{
+        margin-top: 1px;
+    }
+}
+
+
+/*media queries MOBILE*/
+@media screen  and (max-width: 412px){
+    /*Home*/
+    .navbar-toggler{
+        margin-left: 40px;
+    } 
+    
+    .homeQuote p{
+        font-size: 0.7rem;
+        padding: 25px 2px; 
+    }
+    .mainTitH{
+        font-size: 2rem;
+    }
+
+    .homeQuote p{
+        font-size: 0.9rem;
+        padding: 15px 15px; 
+    }
+    .colTexto{
+        font-size: 1.1rem;
+    }
+
+    .secondTit{
+        font-size: 1.8rem;
+    }
+
+    .thirdTit{
+        font-size: 1.6rem;
+    }
+
+    .presentacion p{
+        width: 500px;
+    }
+
+    .icons{
+        width: 350px;
+    }
+    .navIcons{
+        font-size: 30px;
+        padding: 2px 13px;
+    }
+    .links{
+        font-size: 1.1rem;
+        margin-left: 4%;
+        margin-bottom: 35px;
+    }
+
+    /*Transforma*/
+    .mainTitP{
+        font-size: 2.2rem;
+        margin-top: 30%;
+        margin-bottom: 3%;
+    }
+
+    .frase{
+        margin-bottom: 5%;
+        font-size:1rem;
+    }
+
+    h4{
+        font-size: 2rem;   
+    }
+
+    .detalleTestimonios{
+        font-size: 1.1rem;
+    }
+
+    .testimonios p{
+        width: 350px;
+        margin: -55px 20px 15px 20px;
+    }
+    .contenedorFlexEventos{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .evento{
+        width: 370px;
+        margin-top: 10px;
+    }
+
+    .newsletter{
+        width: 320px;
+    }
+
+    .newsletter p{
+        font-size: 0.9rem;
+    }
+
+    .emailInput{
+        width: fit-content;
+        padding: 5px 55px;
+    }
+
+    .submitInput{
+        margin-top: 18px;
+        text-align: center;
+    }
+
+    .flexSubmit input{
+        width: 17px ;
+    }
+    
+    .flexSubmit a{
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
